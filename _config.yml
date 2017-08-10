@@ -1,0 +1,51 @@
+# Basic
+title: Jack's Fruit
+subtitle: 追逐发现，寻找沉淀 #A blog orientation of life
+# welcome_message: <a href="https://github.com/ColorYourDream/coloryourdream.github.io" target="_blank">Clone the theme</a> #
+description: 善用发现的眼睛，保持对世界的好奇心，做一个平静而又有趣的人。
+creator: <a href="http://donotopen.me">@Gdream</a>
+
+url: "http://www.donotopen.me.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 访问博客
+
+# Navigation buttons in the front page.
+nav:
+    - {title: 项目, description: 我的项目, url: '/project-plan/'}
+    - {title: 关于, description: 了解更多关于我, url: '/about-me/'}
+    - {title: 订阅, description: 邮件订阅本站, url: 'feed:http://bolobolo.me/rss'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 7
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: bolobolome
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: cYdStudio
+    github: ColorYourDream
+    twitter: cYdSTUDIO
+    gplus: 106974235831812107449
+    mail: colordreamstudio@icloud.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
